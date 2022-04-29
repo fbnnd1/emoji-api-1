@@ -59,7 +59,7 @@ export default function Emojis() {
                 </section>
                 <footer>
                     <p>O conteúdo dessa página só foi possível graças ao trabalho de Adriano Padilha.</p>
-                    <p><a href="https://www.significados.com.br/emojis-emoticons/" target="_blank">https://www.significados.com.br/emojis-emoticons/</a></p>
+                    <p><a href="https://www.significados.com.br/emojis-emoticons/" target="_blank" rel="noreferrer">https://www.significados.com.br/emojis-emoticons/</a></p>
                 </footer>
             </main>
         </div>

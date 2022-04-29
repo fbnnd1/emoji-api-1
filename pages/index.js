@@ -82,7 +82,7 @@ export default function Home() {
             <>
               <p className={styles.emojiSymbol}>{objEmoji.emoji}</p>
               <p className={styles.emojiAlias}>{objEmoji.alias}</p>
-              <footer>Para saber mais sobre o emoji, acesse: <a href="https://www.significados.com.br/emojis-emoticons/" target="_blank">https://www.significados.com.br/emojis-emoticons/</a></footer>
+              <footer>Para saber mais sobre o emoji, acesse: <a href="https://www.significados.com.br/emojis-emoticons/" target="_blank" rel="noreferrer">https://www.significados.com.br/emojis-emoticons/</a></footer>
             </>
           )}
 
