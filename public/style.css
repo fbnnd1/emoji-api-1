@@ -1,0 +1,102 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: rgb(1, 1, 65);
+  color: ghostwhite;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  color:rgb(2, 165, 2)
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+    padding: 0 2rem;
+  }
+  
+  .content {
+    min-height: 100vh;
+    padding: 4rem 0;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .content > header {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .content > footer {
+    margin-top: 50px;
+  }
+  
+  .instructions {
+    font-size: 1.3rem;
+  }
+  
+  .form {
+    /*min-height: 500px;*/
+    min-width: 100px;
+    border-radius: 10px;
+    background-color: #054791;
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  
+  .form > input[type="text"] {
+    width: 90%;
+    min-height: 1.5rem;
+    font-size: 1.3rem;
+    border-radius: 10px;
+  }
+  
+  .form > button {
+    border-radius: 10px;
+    width: 50%;
+    min-height: 1.7rem;
+    color: antiquewhite;
+    background-color: #42cf42;
+    font-weight: bold;
+  }
+  
+  .emojiInfoContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+  }
+  
+  .emojiInfoContainer p {
+    margin: 2px 0 0 1px;
+  }
+  
+  .emojiInfoContainer footer {
+    margin: 30px 0 0 1px;
+  }
+  
+  .emojiSymbol {
+    font-size: 3rem;
+    padding-top: 15px;
+  }
+  
+  .emojiAlias {
+    font-size: 1rem;
+  }
+
+  .hidden {
+      visibility: hidden;
+  }

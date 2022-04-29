@@ -1,0 +1,44 @@
+.container {
+  padding: 0 2rem;
+}
+
+.content {
+  min-height: 100vh;
+  padding: 4rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content > header {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.content > footer {
+  margin-top: 50px;
+}
+
+.content > footer p{
+  text-align: center;
+}
+
+
+.listEmojis > ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.listEmojis > ul > li { 
+  list-style: none;
+ }
+
+ .listEmojis > ul > li span{
+  font-size: 1.7rem;
+ } 
+
+ .listEmojis > ul > li > span{
+  padding-right: 1rem;
+ } 

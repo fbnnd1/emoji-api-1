@@ -1,0 +1,94 @@
+{
+    "data": [
+        {
+            "id":1,
+            "emoji":"😀",
+            "alias": "Sorridente"
+        },
+         {
+            "id":2,
+            "emoji":"😂",
+            "alias": "Chorando de rir"
+        },
+         {
+            "id":3,
+            "emoji":"😶",
+            "alias": "Silêncio"
+        },
+         {
+            "id":4,
+            "emoji":"😓",
+            "alias": "Suando Frio"
+        },
+         {
+            "id":5,
+            "emoji":"😘",
+            "alias": "Beijo Carinhoso"
+        },
+         {
+            "id":6,
+            "emoji":"🙄",
+            "alias": "Tédio"
+        },
+         {
+            "id":7,
+            "emoji":"😢",
+            "alias": "Chorando de tristeza"
+        }
+        ,{
+            "id":8,
+            "emoji":"😬",
+            "alias": "Desconfortávvel"
+        }
+         ,{
+            "id":9,
+            "emoji":"😐",
+            "alias": "Neutro"
+        }
+         ,{
+            "id":10,
+            "emoji":"🤔",
+            "alias": "Pensativo"
+        }
+        ,{
+            "id":11,
+            "emoji":"🤗",
+            "alias": "Abraço"
+        }
+        ,{
+            "id":12,
+            "emoji":"😤",
+            "alias": "Irritado"
+        }
+        ,{
+            "id":13,
+            "emoji":"😴",
+            "alias": "Dormindo"
+        }
+        ,{
+            "id":14,
+            "emoji":"😍",
+            "alias": "Eu amo ..."
+        }
+        ,{
+            "id":15,
+            "emoji":"😱",
+            "alias": "Grito, Medo"
+        }
+        ,{
+            "id":16,
+            "emoji":"😏",
+            "alias": "Malicioso"
+        }
+        ,{
+            "id":17,
+            "emoji":"😊",
+            "alias": "Felicidade"
+        }
+        ,{
+            "id":18,
+            "emoji":"🥺",
+            "alias": "Rosto suplicante"
+        }
+    ]
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Dicionário de Emoji" />
+    <title>Dicionário de Emoji</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <main class="content">
+          <header>Dicionário de Emoji</header>
+          <section>
+            <p class="instructions">Digite o Emoji no formulário abaixo para descobrir seu significado</p>
+          </section>
+          <section>
+            <form 
+              action=""
+              onsubmit="searchEmoji(event)"
+              class="form"
+              accept-charset="utf-8"
+            >
+              <input 
+                type="text" 
+                value=""
+                placeholder="Informe o Emoji" 
+                name="txt_emoji"
+                id="txt_emoji"
+              /><br />
+              <button>Obter significado do Emoji</button>
+              <span id="user_msg">Status</span>
+            </form>
+            <section class="emojiInfoContainer">
+                <p class="emojiSymbol hidden" id="id_emojiInfoSymbol"></p>
+                <p class="emojiAlias hidden" id="id_emojiInfoAlias"></p>
+                <footer class="hidden" id="id_emojiInfoFooter">Para saber mais sobre o emoji, acesse: <a href="https://www.significados.com.br/emojis-emoticons/" target="_blank">https://www.significados.com.br/emojis-emoticons/</a></footer>
+            </section>
+          </section>
+          <footer>
+              <p>O conteúdo dessa página só foi possível graças ao trabalho de Adriano Padilha.</p>
+          </footer>
+        </main>
+</body>
+</html>
